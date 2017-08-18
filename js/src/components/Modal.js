@@ -11,7 +11,7 @@ class Modal extends Component{
           <iframe 
             width="560" 
             height="315" 
-            src={'https://www.youtube.com/embed/' + data.source_identifier + '?rel=0&amp;showinfo=0'} 
+            src={'https://www.youtube.com/embed/' + data.source_identifier + '?rel=0&amp;showinfo=0&amp;autoplay=1'} 
             frameborder="0" 
             allowfullscreen></iframe>
           </div>;

@@ -27,6 +27,7 @@ class GridItem extends Component {
       class={this._classes()} 
       id={ 'post-' + this.props.data.id }
       style={ 'background-image: url(' + this.props.data.image + ');' }>
+      <div className="icon"></div>
       <div class="title">{this.props.data.text}</div>
     </div>;
   }

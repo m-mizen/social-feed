@@ -300,6 +300,7 @@ var GridItem = function (_Component) {
           'class': this._classes(),
           id: 'post-' + this.props.data.id,
           style: 'background-image: url(' + this.props.data.image + ');' },
+        (0, _preact.h)('div', { className: 'icon' }),
         (0, _preact.h)(
           'div',
           { 'class': 'title' },
@@ -359,7 +360,7 @@ var Modal = function (_Component) {
             (0, _preact.h)("iframe", {
               width: "560",
               height: "315",
-              src: 'https://www.youtube.com/embed/' + data.source_identifier + '?rel=0&amp;showinfo=0',
+              src: 'https://www.youtube.com/embed/' + data.source_identifier + '?rel=0&amp;showinfo=0&amp;autoplay=1',
               frameborder: "0",
               allowfullscreen: true })
           );
