@@ -2,8 +2,6 @@ import { h, render, Component } from 'preact';
 
 
 class Modal extends Component{
-
-
   _modalContent(data){
     switch(data.network_id){
       case 8:

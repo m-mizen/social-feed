@@ -1,6 +1,8 @@
 import { h, render, Component } from 'preact';
+
 import  GridItem from './GridItem.js';
 import  Modal from './Modal.js';
+
 // Grid Component
 class Grid extends Component {
 
@@ -10,6 +12,7 @@ class Grid extends Component {
       modalData: {}
     }
   }
+
   // Output the posts
   _posts(){
     const items = [];
